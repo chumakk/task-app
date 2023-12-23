@@ -1,0 +1,72 @@
+[
+    {
+        "id": "ca52ba3b-22cf-4e66-9791-ab0e296d01c1",
+        "name": "File#1",
+        "isFolder": false,
+        "folderId": null,
+        "documentIds": []
+    },
+    {
+        "id": "eec4012b-3af8-40b0-a0a8-a8eb0f830f52",
+        "name": "File#2",
+        "isFolder": false,
+        "folderId": null,
+        "documentIds": []
+    },
+    {
+        "id": "ca850860-6096-42f7-8cb8-16fade3aaddf",
+        "name": "Directory#1",
+        "isFolder": true,
+        "folderId": null,
+        "documentIds": [
+            "8fc72b4f-7b02-4c82-ad6b-4bf1bb4abd9a",
+            "00d5dccf-dd5f-48fb-be1a-4cdf9eccf66d"
+        ]
+    },
+    {
+        "id": "e3339948-cfa0-49b4-87c4-cff2634e3112",
+        "name": "Directory#2",
+        "isFolder": true,
+        "folderId": null,
+        "documentIds": [
+            "48de4aa4-3f91-477c-9b94-898df0d45e23",
+            "2eb342e6-6c0d-4088-a7c7-6939af2d4512",
+            "7f26b1b1-0d83-4e1e-855d-c48822938b8f"
+        ]
+    },
+    {
+        "id": "8fc72b4f-7b02-4c82-ad6b-4bf1bb4abd9a",
+        "name": "File#3",
+        "isFolder": false,
+        "folderId": "ca850860-6096-42f7-8cb8-16fade3aaddf",
+        "documentIds": []
+    },
+    {
+        "id": "00d5dccf-dd5f-48fb-be1a-4cdf9eccf66d",
+        "name": "File#4",
+        "isFolder": false,
+        "folderId": "ca850860-6096-42f7-8cb8-16fade3aaddf",
+        "documentIds": []
+    },
+    {
+        "id": "48de4aa4-3f91-477c-9b94-898df0d45e23",
+        "name": "File#5",
+        "isFolder": false,
+        "folderId": "e3339948-cfa0-49b4-87c4-cff2634e3112",
+        "documentIds": []
+    },
+    {
+        "id": "2eb342e6-6c0d-4088-a7c7-6939af2d4512",
+        "name": "File#6",
+        "isFolder": false,
+        "folderId": "e3339948-cfa0-49b4-87c4-cff2634e3112",
+        "documentIds": []
+    },
+    {
+        "id": "7f26b1b1-0d83-4e1e-855d-c48822938b8f",
+        "name": "Directory#3",
+        "isFolder": true,
+        "folderId": "e3339948-cfa0-49b4-87c4-cff2634e3112",
+        "documentIds": []
+    }
+]

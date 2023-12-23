@@ -1,0 +1,28 @@
+.container {
+	min-width: 8rem;
+
+	position: relative;
+}
+
+.loaded {
+	height: 1rem;
+	padding: 0.2rem;
+}
+
+.labelWrapper {
+	display: flex;
+	gap: 1rem;
+
+	position: relative;
+
+	.label {
+		font-size: 1rem;
+		line-height: 2.5rem;
+		flex: 1 1 auto;
+	}
+
+	.actionWrapper {
+		display: flex;
+		gap: 0.5rem;
+	}
+}

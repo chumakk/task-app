@@ -1,0 +1,26 @@
+{
+	"root": true,
+	"extends": ["plugin:react/recommended", "plugin:@typescript-eslint/recommended"],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"sourceType": "module",
+		"ecmaVersion": 2015,
+		"ecmaFeatures": {
+			"jsx": true // JSX-compatible
+		}
+	},
+	"env": {
+		"es6": true,
+		"browser": true,
+		"node": true
+	},
+	"plugins": ["@typescript-eslint", "react"],
+	"rules": {
+		"quotes": ["error", "single"]
+	},
+	"settings": {
+		"react": {
+			"version": "detect"
+		}
+	}
+}
